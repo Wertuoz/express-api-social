@@ -1,0 +1,12 @@
+POST http://localhost:3000/api/likes
+Content-Type: application/x-www-form-urlencoded
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmM0OGI1MjA0YmZmMDIwNDU3YTVmYmUiLCJpYXQiOjE3MjQxNTg1MDJ9.k9D_wxc_zudUFeONqAY5MYm_K73OuHKZ8DyTj3F3itE
+
+postId=66c60716dae68820d64de918
+###
+
+DELETE http://localhost:3000/api/likes/66c60716dae68820d64de918
+Content-Type: application/x-www-form-urlencoded
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmM0OGI1MjA0YmZmMDIwNDU3YTVmYmUiLCJpYXQiOjE3MjQxNTg1MDJ9.k9D_wxc_zudUFeONqAY5MYm_K73OuHKZ8DyTj3F3itE
+
+

@@ -1,0 +1,31 @@
+GET http://localhost:3000/api/posts
+Content-Type: application/x-www-form-urlencoded
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmM0OGI1MjA0YmZmMDIwNDU3YTVmYmUiLCJpYXQiOjE3MjQyNDA0MTh9.XGI5Pn3VDtQwQwKp8f3bu9DfNmepUA6lSWUfyORBH6c
+
+###
+
+POST http://localhost:3000/api/posts
+Content-Type: application/x-www-form-urlencoded
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmM0OGI1MjA0YmZmMDIwNDU3YTVmYmUiLCJpYXQiOjE3MjQyNDA0MTh9.XGI5Pn3VDtQwQwKp8f3bu9DfNmepUA6lSWUfyORBH6c
+
+content=My first post
+###
+
+GET http://localhost:3000/api/posts
+Content-Type: application/x-www-form-urlencoded
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmM0OGI1MjA0YmZmMDIwNDU3YTVmYmUiLCJpYXQiOjE3MjQyNDA0MTh9.XGI5Pn3VDtQwQwKp8f3bu9DfNmepUA6lSWUfyORBH6c
+
+###
+
+GET http://localhost:3000/api/posts/66c5e2184715fb0c29891bd8
+Content-Type: application/x-www-form-urlencoded
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmM0OGI1MjA0YmZmMDIwNDU3YTVmYmUiLCJpYXQiOjE3MjQyNDA0MTh9.XGI5Pn3VDtQwQwKp8f3bu9DfNmepUA6lSWUfyORBH6c
+
+###
+
+DELETE http://localhost:3000/api/posts/66c5e204a7dc20d34f6d0172
+Content-Type: application/x-www-form-urlencoded
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmM0OGI1MjA0YmZmMDIwNDU3YTVmYmUiLCJpYXQiOjE3MjQyNDA0MTh9.XGI5Pn3VDtQwQwKp8f3bu9DfNmepUA6lSWUfyORBH6c
+
+
+

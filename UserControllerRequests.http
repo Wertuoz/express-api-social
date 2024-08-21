@@ -1,0 +1,33 @@
+POST http://localhost:3000/api/register
+Content-Type: application/x-www-form-urlencoded
+
+name=foohhhh
+&password=barrrrr
+&email=testtttt
+
+###
+
+POST http://localhost:3000/api/login
+Content-Type: application/x-www-form-urlencoded
+
+password=barrrrr
+&email=testtttt
+
+###
+
+GET http://localhost:3000/api/users/66c489f65ad3bac7adf9151f
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmM0OGI1MjA0YmZmMDIwNDU3YTVmYmUiLCJpYXQiOjE3MjQxNTg1MDJ9.k9D_wxc_zudUFeONqAY5MYm_K73OuHKZ8DyTj3F3itE
+
+###
+
+GET http://localhost:3000/api/current
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmM0OGI1MjA0YmZmMDIwNDU3YTVmYmUiLCJpYXQiOjE3MjQyNDA0MTh9.XGI5Pn3VDtQwQwKp8f3bu9DfNmepUA6lSWUfyORBH6c
+
+###
+
+PUT http://localhost:3000/api/users/66c48b5204bff020457a5fbe
+Content-Type: application/x-www-form-urlencoded
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmM0OGI1MjA0YmZmMDIwNDU3YTVmYmUiLCJpYXQiOjE3MjQyNDA0MTh9.XGI5Pn3VDtQwQwKp8f3bu9DfNmepUA6lSWUfyORBH6c
+
+bio=Playing videogames very good
+&location=Moscow

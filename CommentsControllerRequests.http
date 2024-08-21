@@ -1,0 +1,14 @@
+POST http://localhost:3000/api/comments
+Content-Type: application/x-www-form-urlencoded
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmM0OGI1MjA0YmZmMDIwNDU3YTVmYmUiLCJpYXQiOjE3MjQyNDA0MTh9.XGI5Pn3VDtQwQwKp8f3bu9DfNmepUA6lSWUfyORBH6c
+
+content=My first comment
+&postId=66c5f61d34be7730e7088cf4
+###
+
+DELETE http://localhost:3000/api/comments/66c5f6ad34be7730e7088cf5
+Content-Type: application/x-www-form-urlencoded
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmM0OGI1MjA0YmZmMDIwNDU3YTVmYmUiLCJpYXQiOjE3MjQyNDA0MTh9.XGI5Pn3VDtQwQwKp8f3bu9DfNmepUA6lSWUfyORBH6c
+
+content=My first post
+
