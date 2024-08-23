@@ -2,8 +2,8 @@ POST http://localhost:3000/api/register
 Content-Type: application/x-www-form-urlencoded
 
 name=foohhhh
-&password=barrrrr
-&email=testtttt
+&password=barrrrrr
+&email=testttttt
 
 ###
 

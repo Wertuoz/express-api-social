@@ -1,0 +1,13 @@
+POST http://localhost:3000/api/follow
+Content-Type: application/x-www-form-urlencoded
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmM0OGI1MjA0YmZmMDIwNDU3YTVmYmUiLCJpYXQiOjE3MjQyNDA0MTh9.XGI5Pn3VDtQwQwKp8f3bu9DfNmepUA6lSWUfyORBH6c
+
+followingId=66c489f65ad3bac7adf9151f
+###
+
+DELETE http://localhost:3000/api/unfollow/1
+Content-Type: application/x-www-form-urlencoded
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmM0OGI1MjA0YmZmMDIwNDU3YTVmYmUiLCJpYXQiOjE3MjQyNDA0MTh9.XGI5Pn3VDtQwQwKp8f3bu9DfNmepUA6lSWUfyORBH6c
+
+followingId=66c489f65ad3bac7adf9151f
+
